@@ -1,12 +1,12 @@
 # Change all occurrences of "sample_validator" to your prerferred name
 services:
-  sample_validator:
-    container_name: sample_validator
+  dedek168:
+    container_name: dedek168
     # build: .
     image: "alloranetwork/allora-chain:v0.2.7"
     environment:
       - NETWORK=edgenet
-      - MONIKER=sample_validator
+      - MONIKER=dedek168
       - APP_HOME=./data
     volumes:
       - ./data:/data
